@@ -7,7 +7,7 @@
 
 ## 2. Installation
 - Import SQL file in your database
-- Add ```ensure poke_medicjob``` in your server.cfg
+- Add `ensure poke_medicjob` in your server.cfg
 - Enjoy!
 
 ## 3. Discord
