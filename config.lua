@@ -3,7 +3,7 @@ Config = {}
 -- Language setting - English | Portuguese_BR
 Config.Lang = 'English'
 
-Config.Job = "doctor"
+Config.Jobs = {"doctor", "police", "admin"}
 
 Config.KeyOpenMedicCabinet = 0xD9D0E1C0 -- [SPACE]
 Config.KeyCloseMedicCabinet = 0x4AF4D473 -- [DELETE] -- Not sure if close menu

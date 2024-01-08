@@ -13,7 +13,15 @@ AddEventHandler('poke_medic:getjob', function(type)
     local user = VORPCore.getUser(_source)
     local character = user.getUsedCharacter
 
-    if character.job == Config.Job then
+    local isAuthorized = false
+    for _, job in pairs(Config.Jobs) do
+        if character.job == job then
+            isAuthorized = true
+            break
+        end
+    end
+
+    if isAuthorized then
         TriggerClientEvent('poke_medic:auth', _source, type)
     else
         VORPCore.NotifyRightTip(_source, T.doNotPermission, 3000)
