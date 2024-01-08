@@ -42,7 +42,7 @@ Config.itemsForMedic = {
     { item = "bandage_dirty", label = "Bandage Dirty", givAmount = 5 },
     -- Items for reviving
     { item = "syringe_steroids", label = "Syringe of Steroids", givAmount = 5 },
-    { item = "syringe_adrenalin", label = "Syringe of Adrenalin", givAmount = 5 },s
+    { item = "syringe_adrenalin", label = "Syringe of Adrenalin", givAmount = 5 },
     -- add more here
 }
 
