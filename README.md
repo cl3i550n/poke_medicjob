@@ -9,6 +9,3 @@
 - Import SQL file in your database
 - Add `ensure poke_medicjob` in your server.cfg
 - Enjoy!
-
-## 3. Discord
-- Join discord! - [Discord](http://discord.vorpcore.com/)
